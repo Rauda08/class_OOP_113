@@ -8,7 +8,7 @@ public:
 public: void  cetak() {
     cout << "NIM = " << nim;
     cout << "\nNama = " << nama;
-}
+    }
 };
 
 class Matakuliah {
@@ -32,10 +32,10 @@ public :
     }
 };
 
-int main() {
+int main()
 {
     Mahasiswa mhs1;
-    Mahasiswa mk;
+    Matakuliah mk;
 
     cout << "Masukan NIM = ";
     cin >> mhs1.nim;

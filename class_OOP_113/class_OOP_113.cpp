@@ -37,3 +37,6 @@ int main() {
     Mahasiswa mk;
 
     cout << "Masukan NIM = ";
+    cin >> mhs1.nim;
+    cout << "Masukan Nama = ";
+    cin >> mhs1.nama;

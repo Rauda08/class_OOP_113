@@ -16,6 +16,15 @@ private:
     string kode;
     string namaM;
     int sks;
+public :
+    void input() {
+        cout << "Masukan kodee Matakuliah : ";
+        cin >> kode;
+        cout << "Masukan Nama Matakuliah : ";
+        cin >> namaM;
+        cout << "Jalan SKS :";
+        cin >> sks;
+    }
 };
 
 int main()

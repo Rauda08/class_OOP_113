@@ -33,6 +33,7 @@ public :
 };
 
 int main() {
+{
     Mahasiswa mhs1;
     Mahasiswa mk;
 
